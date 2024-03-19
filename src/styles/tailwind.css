@@ -41,6 +41,13 @@ select {
 [multiple]:focus,
 textarea:focus,
 select:focus {
-  --tw-ring-color: "#074f4b";
-  border-color: "#074f4b";
+  --tw-ring-color: "#ffffff";
+  border-color: "#ffffff";
+}
+
+li:focus-visible {
+  outline: none;
+}
+li:hover {
+  cursor: pointer;
 }

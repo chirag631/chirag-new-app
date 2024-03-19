@@ -17,6 +17,21 @@ const Home = () => {
             SpalshFour
           </Link>
         </li>
+        <li style={{ marginBottom: "10px" }}>
+          <Link to="/menu" style={{ color: "#87CEFA", textDecoration: "none" }}>
+            Menu
+          </Link>
+        </li>
+        <li style={{ marginBottom: "10px" }}>
+          <Link to="/contactus" style={{ color: "#87CEFA", textDecoration: "none" }}>
+            Contactus
+          </Link>
+        </li>
+        <li style={{ marginBottom: "10px" }}>
+          <Link to="/webpagenew" style={{ color: "#87CEFA", textDecoration: "none" }}>
+            WebpageNew
+          </Link>
+        </li>
       </ul>
     </div>
   );

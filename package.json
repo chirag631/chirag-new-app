@@ -1,8 +1,8 @@
 {
   "name": "chirags-application-1",
   "version": "0.1.0",
-  "homepage": "https://chirag631.github.io/chirag-new-app",
   "private": true,
+  "homepage": "https://chirag631.github.io/chirag-new-app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.1",
     "@testing-library/react": "^11.2.7",
@@ -13,6 +13,7 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "6.0.2",
     "react-router-hash-link": "^2.4.3",
+    "react-tabs": "^4.3.0",
     "prop-types": "^15.8.1",
     "@tailwindcss/forms": "^0.5.7",
     "react-scripts": "5.0.0",

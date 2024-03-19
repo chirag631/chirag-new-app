@@ -16,13 +16,13 @@ export default function SpalshFourUsp({
           className="justify-center h-[498px] w-full md:h-auto left-0 bottom-0 right-0 top-0 m-auto object-cover absolute rounded-[15px]"
         />
         <div className="flex flex-col justify-center w-full h-full gap-[9px] left-0 bottom-0 right-0 top-0 p-5 m-auto bg-gradient absolute rounded-[15px]">
-          <Text as="p" className="mt-[303px] uppercase">
+          <Text size="md" as="p" className="mt-[303px] !text-white-A700 uppercase">
             {usp}
           </Text>
-          <Text size="xl" as="p" className="!text-gray-400 !font-ranade !font-medium">
+          <Text size="2xl" as="p" className="!text-gray-400 !font-ranade">
             {coffeelovers}
           </Text>
-          <Text size="lg" as="p" className="mb-[38px]">
+          <Text as="p" className="mb-[38px] !text-white-A700 !font-normal">
             {forcoffee}
           </Text>
         </div>

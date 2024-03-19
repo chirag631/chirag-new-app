@@ -12,33 +12,35 @@ export default function SpalshFourPage() {
         <title>Chirag's Application1</title>
         <meta name="description" content="Web site created using create-react-app" />
       </Helmet>
-      <div className="w-full bg-gray-900">
-        <div className="bg-gray-900">
+      <div className="w-full bg-gray-900_01">
+        <div className="bg-gray-900_01">
           <div>
-            <header className="flex justify-center items-center p-5 bg-white-A700">
-              <Img src="images/img_logo.svg" alt="logo_one" className="h-[52px] mb-[3px]" />
-              <div className="flex justify-between w-[38%] mb-3.5 ml-[286px] gap-5">
-                <a href="#">
-                  <Text as="p" className="!text-teal-900 !font-ranade">
-                    HOME
+            <header className="p-5 bg-white-A700">
+              <div className="flex md:flex-col self-start justify-center items-center w-full mb-[3px] mx-auto max-w-[1392px]">
+                <Img src="images/img_logo.svg" alt="logo_one" className="h-[52px] md:w-full md:h-auto" />
+                <div className="flex justify-between mb-[11px] ml-[286px] gap-5 md:p-5 md:ml-0 flex-1">
+                  <a href="/">
+                    <Text size="md" as="p" className="!text-teal-900 !font-ranade">
+                      HOME
+                    </Text>
+                  </a>
+                  <a href="contactus">
+                    <Text size="md" as="p" className="!text-teal-900 !font-ranade">
+                      COFFEE PODS
+                    </Text>
+                  </a>
+                  <a href="webpagenew">
+                    <Text size="md" as="p" className="!text-teal-900 !font-ranade">
+                      ABOUT US
+                    </Text>
+                  </a>
+                </div>
+                <div className="flex sm:flex-col justify-center items-center mb-1 ml-[317px] gap-[5px] p-[9px] md:p-5 md:ml-0 bg-teal-900 rounded-[20px]">
+                  <Img src="images/img_icon_iconoir.svg" alt="iconiconoir_one" className="h-[18px] w-[18px]" />
+                  <Text size="md" as="p" className="self-start !text-white-A700">
+                    SEE DIGITAL MENU
                   </Text>
-                </a>
-                <a href="#">
-                  <Text as="p" className="!text-teal-900 !font-ranade">
-                    COFFEE PODS
-                  </Text>
-                </a>
-                <a href="#">
-                  <Text as="p" className="!text-teal-900 !font-ranade">
-                    ABOUT US
-                  </Text>
-                </a>
-              </div>
-              <div className="flex sm:flex-col justify-center items-center ml-[317px] gap-[5px] p-[9px] bg-teal-900 rounded-[20px]">
-                <Img src="images/img_icon_iconoir.svg" alt="iconiconoir_one" className="h-[18px] w-[18px]" />
-                <Text as="p" className="self-start">
-                  SEE DIGITAL MENU
-                </Text>
+                </div>
               </div>
             </header>
             <div>
@@ -51,17 +53,17 @@ export default function SpalshFourPage() {
                   />
                   <div className="flex sm:flex-col justify-between items-center w-[53%] right-[4%] top-[4%] gap-5 m-auto absolute">
                     <div className="flex self-end justify-between w-[31%] sm:w-full mb-[7px] gap-5 sm:p-5">
-                      <Text as="p" className="!text-teal-900 !font-ranade">
+                      <Text size="md" as="p" className="!text-teal-900 !font-ranade">
                         COFFEE PODS
                       </Text>
-                      <Text as="p" className="!text-teal-900 !font-ranade">
+                      <Text size="md" as="p" className="!text-teal-900 !font-ranade">
                         ABOUT US
                       </Text>
                     </div>
                     <Button
                       shape="round"
                       leftIcon={<Img src="images/img_icon_iconoir.svg" alt="icon / iconoir / page" />}
-                      className="sm:px-5"
+                      className="gap-[5px] sm:px-5 min-w-[216px]"
                     >
                       SEE DIGITAL MENU
                     </Button>
@@ -74,7 +76,7 @@ export default function SpalshFourPage() {
                         <div className="flex md:flex-col self-stretch justify-between items-start gap-5">
                           <div className="flex mt-[136px] pr-3 py-3 md:p-5">
                             <div className="flex mt-[45px] mb-[116px]">
-                              <Text size="3xl" as="p" className="!text-gray-400 !font-ranade uppercase">
+                              <Text size="5xl" as="p" className="!text-gray-400 !font-ranade uppercase">
                                 Brewing your
                               </Text>
                             </div>
@@ -94,7 +96,7 @@ export default function SpalshFourPage() {
                             </div>
                           </div>
                         </div>
-                        <Text size="2xl" as="p" className="mt-[158px] !text-gray-400 !font-ranade uppercase">
+                        <Text size="4xl" as="p" className="mt-[158px] !text-gray-400 !font-ranade uppercase">
                           Brand Story
                         </Text>
                         <div className="flex md:flex-col justify-between w-[89%] md:w-full mt-[65px] gap-5">
@@ -104,27 +106,30 @@ export default function SpalshFourPage() {
                           <Img src="images/img_glass.svg" alt="fish_one" className="h-[180px] w-[180px]" />
                         </div>
                         <div className="flex justify-between w-[57%] md:w-full mt-9 gap-5">
-                          <Text size="lg" as="p" className="text-center">
+                          <Text as="p" className="!text-white-A700 text-center !font-normal">
                             Lotus Flower
                           </Text>
-                          <Text size="lg" as="p" className="text-center">
+                          <Text as="p" className="!text-white-A700 text-center !font-normal">
                             Jade Stone
                           </Text>
-                          <Text size="lg" as="p" className="text-center">
+                          <Text as="p" className="!text-white-A700 text-center !font-normal">
                             Koi Fish
                           </Text>
                         </div>
                       </div>
                     </div>
                     <div className="flex flex-col w-full mt-[-51px] gap-[30px] mx-auto md:p-5 z-[1] max-w-[1232px]">
-                      <Text size="lg" as="p" className="w-[7%] md:w-full ml-[49px] md:ml-0 text-center leading-[26px]">
+                      <Text
+                        as="p"
+                        className="w-[7%] md:w-full ml-[49px] md:ml-0 !text-white-A700 text-center !font-normal leading-[26px]"
+                      >
                         <>
                           Mystic
                           <br />
                           Ball Glass
                         </>
                       </Text>
-                      <Text size="xl" as="p" className="text-justify leading-[26px]">
+                      <Text size="2xl" as="p" className="!text-white-A700 text-justify !font-normal leading-[26px]">
                         <>
                           Fortune Coffee gets its name from a simple yet profound experience. It began with a fortune
                           cookie on a date—a simple message that read &quot;marry your match.&quot; Fast forward a few
@@ -152,13 +157,17 @@ export default function SpalshFourPage() {
                       <div className="flex flex-col self-end items-center mb-[57px] gap-[63px] md:p-5 sm:gap-[31px] flex-1">
                         <div className="flex flex-col self-stretch items-end pl-14 pr-[59px] gap-6 py-[59px] md:p-5 bg-teal-900">
                           <Text
-                            size="2xl"
+                            size="4xl"
                             as="p"
                             className="mt-[30px] mr-[480px] md:mr-0 !text-gray-400 !font-ranade uppercase"
                           >
                             Coffee Pods
                           </Text>
-                          <Text size="xl" as="p" className="w-[55%] md:w-full mb-5 text-justify leading-[26px]">
+                          <Text
+                            size="2xl"
+                            as="p"
+                            className="w-[55%] md:w-full mb-5 !text-white-A700 text-justify !font-normal leading-[26px]"
+                          >
                             <>
                               Fortune Coffee Pods take their cue from the self-sufficiency of an aircraft&#39;s
                               unit—compact, efficient, and a haven amidst the daily grind of office life. They&#39;re
@@ -179,7 +188,7 @@ export default function SpalshFourPage() {
                             </>
                           </Text>
                         </div>
-                        <Text size="2xl" as="p" className="!text-gray-400 !font-ranade uppercase">
+                        <Text size="4xl" as="p" className="!text-gray-400 !font-ranade uppercase">
                           Strategic Levers
                         </Text>
                       </div>
@@ -195,7 +204,11 @@ export default function SpalshFourPage() {
             </div>
             <div className="h-[463px] mt-[92px] pt-[27px] pl-[27px] sm:pt-5 sm:pl-5 relative">
               <div className="flex md:flex-col justify-center items-center w-full h-full left-0 bottom-0 right-0 top-0 m-auto absolute">
-                <Text size="xl" as="p" className="self-end w-[41%] md:w-full mb-[109px] z-[1]">
+                <Text
+                  size="2xl"
+                  as="p"
+                  className="self-end w-[41%] md:w-full mb-[109px] !text-white-A700 !font-normal z-[1]"
+                >
                   Walk into our world of fortune. Latest launches, new coffee pods, exciting offers- unpacking magic and
                   more. Tag us and stand a chance at getting featured on our page!
                 </Text>
@@ -206,7 +219,7 @@ export default function SpalshFourPage() {
                 />
               </div>
               <Text
-                size="2xl"
+                size="4xl"
                 as="p"
                 className="w-[51%] left-[4%] top-[24%] m-auto !text-teal-900 !font-ranadevariable !font-light absolute"
               >
@@ -228,7 +241,7 @@ export default function SpalshFourPage() {
                       <Text size="xs" as="p" className="!text-indigo-50_7e tracking-[0.40px] uppercase opacity-0.4">
                         Address
                       </Text>
-                      <Text size="s" as="p" className="!text-indigo-50">
+                      <Text size="s" as="p" className="!text-indigo-50 !font-normal">
                         EEPS-01, Emerald Estate , Sector 65, Gurugram
                       </Text>
                     </div>
@@ -236,7 +249,7 @@ export default function SpalshFourPage() {
                   <div className="flex self-end justify-between w-[22%] md:w-full gap-5 md:p-5">
                     <div className="h-[40px] w-[43%] bg-white-A700 relative rounded-[20px]">
                       <a href="#" className="justify-center w-max left-0 bottom-0 right-0 top-0 m-auto absolute">
-                        <Text as="p" className="!text-teal-900">
+                        <Text size="md" as="p" className="!text-teal-900">
                           Contact Us
                         </Text>
                       </a>
@@ -244,17 +257,21 @@ export default function SpalshFourPage() {
                         href="#"
                         className="flex justify-center items-center h-[40px] w-max left-0 bottom-0 right-0 top-0 px-[23px] py-2.5 m-auto sm:px-5 bg-white-A700 absolute rounded-[20px]"
                       >
-                        <Text as="p" className="!text-teal-900">
+                        <Text size="md" as="p" className="!text-teal-900">
                           Contact Us
                         </Text>
                       </a>
                     </div>
                     <div className="h-[40px] w-[43%] bg-white-A700 relative rounded-[20px]">
-                      <Text as="p" className="w-max bottom-[22%] right-0 left-0 m-auto !text-teal-900 absolute">
+                      <Text
+                        size="md"
+                        as="p"
+                        className="w-max bottom-[22%] right-0 left-0 m-auto !text-teal-900 absolute"
+                      >
                         Be a partner
                       </Text>
                       <div className="flex justify-center w-full h-full left-0 bottom-0 right-0 top-0 p-2 m-auto bg-white-A700 absolute rounded-[20px]">
-                        <Text as="p" className="self-end mt-0.5 !text-teal-900">
+                        <Text size="md" as="p" className="self-end mt-0.5 !text-teal-900">
                           Be a partner
                         </Text>
                       </div>
@@ -267,11 +284,11 @@ export default function SpalshFourPage() {
                     © 2024 — Copyright
                   </Text>
                   <div className="flex self-end justify-between w-[13%] gap-5">
-                    <Text size="xs" as="p" className="self-start">
+                    <Text size="xs" as="p" className="self-start !text-white-A700">
                       Fortune Coffee Pvt. Ltd.
                     </Text>
                     <a href="#" className="self-end">
-                      <Text size="xs" as="p">
+                      <Text size="xs" as="p" className="!text-white-A700">
                         Privacy
                       </Text>
                     </a>
