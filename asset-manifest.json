@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/chirag-new-app/static/css/main.07b6a2da.css",
-    "main.js": "/chirag-new-app/static/js/main.058d788d.js",
+    "main.css": "/chirag-new-app/static/css/main.f01b47bf.css",
+    "main.js": "/chirag-new-app/static/js/main.1defe5aa.js",
     "static/media/InterMedium.ttf": "/chirag-new-app/static/media/InterMedium.3f7acfe50aad7ad68548.ttf",
     "static/media/InterRegular.ttf": "/chirag-new-app/static/media/InterRegular.9ca9ba81e9dcaa12b3a1.ttf",
     "index.html": "/chirag-new-app/index.html",
-    "main.07b6a2da.css.map": "/chirag-new-app/static/css/main.07b6a2da.css.map",
-    "main.058d788d.js.map": "/chirag-new-app/static/js/main.058d788d.js.map"
+    "main.f01b47bf.css.map": "/chirag-new-app/static/css/main.f01b47bf.css.map",
+    "main.1defe5aa.js.map": "/chirag-new-app/static/js/main.1defe5aa.js.map"
   },
   "entrypoints": [
-    "static/css/main.07b6a2da.css",
-    "static/js/main.058d788d.js"
+    "static/css/main.f01b47bf.css",
+    "static/js/main.1defe5aa.js"
   ]
 }
